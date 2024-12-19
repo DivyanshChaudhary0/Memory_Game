@@ -1,14 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 const MobileGame = () => {
-  const images = [
-    "https://plus.unsplash.com/premium_photo-1669725687221-6fe12c2da6b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D",
-    "https://plus.unsplash.com/premium_photo-1669725687150-15c603ac6a73?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1491545437994-ebc9551b87d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFuaW1hbHN8ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFuaW1hbHN8ZW58MHx8MHx8fDA%3D",
-    "https://media.istockphoto.com/id/1296527895/photo/various-dance-poses-of-an-indian-male-peacock.webp?a=1&b=1&s=612x612&w=0&k=20&c=3wDhEx2d1Q2HXkdOLOcALVErEca7_Ysx61o1IVlFLrw=",
-    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D",
-  ];
 
   const emojis = [
     "🍎",
